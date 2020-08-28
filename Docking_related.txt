@@ -1,0 +1,7 @@
+hide everything
+select TYR87, resn TYR and resi 87 and chain 4
+show sticks, TYR87
+select HIS38, resn HIS and resi 38 and chain 4
+show sticks, HIS38
+select ASP139, resn ASP and resi 139 and chain 4
+show sticks, ASP139

@@ -1,0 +1,12 @@
+hide everything
+
+select ComplexI, index 1:19133
+show surface, ComplexI
+set transparency, 0.4
+color grey, ComplexI
+set surface_mode, 3
+
+select water, index 330062:330148
+select Q10, resn lig
+show spheres, water
+show spheres, Q10

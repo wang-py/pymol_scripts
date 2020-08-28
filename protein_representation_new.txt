@@ -1,0 +1,15 @@
+hide everything
+
+select bottleneck, resn ALA and resi 63 + resn PHE and resi 28 + resn ALA and resi 29 + resn SER and resi 66 + resn PRO and resi 59 + resn ALA and resi 242 + resn LEU and resi 243 + resn MET and resi 246 + resn ILE and resi 239 + resn ASP and resi 62
+show surface, bottleneck
+set transparency, 0.4
+color grey, bottleneck
+set surface_mode, 3
+
+select barriers, resn ALA and resi 70 + resn GLU and resi 225 + resn HSD and resi 38 + resn ASP and resi 139 + resn MET and resi 51 + resn ARG and resi 62 + resn PHE and resi 63 + resn TYR and resi 87
+show spheres, barriers
+
+select water, index 330062:330148
+select Q10, resn lig
+show spheres, water
+show spheres, Q10
